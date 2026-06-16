@@ -2,9 +2,9 @@
 
 claudeemailskill.com
 
-Claude Email Skill for agents that work on email systems.
+Give Claude-oriented email work sharper briefs and stricter review loops.
 
-A compact skill for Claude-oriented email prompts, reviews, and campaign drafting, built for Codex, Hermes, OpenClaw, Claude Code, Cowork, Goose, Cursor, Windsurf, and other skill-aware agents. It gives agents intake questions, review gates, QA checks, and handoff formats for production email work.
+A skill for turning Claude-assisted drafting into structured campaign prompts, critique passes, and human-review artifacts.
 
 ## Install
 
@@ -12,16 +12,43 @@ A compact skill for Claude-oriented email prompts, reviews, and campaign draftin
 npx skills add claudeemailskill
 ```
 
-Raw skill folder: `skills/claudeemailskill`
+## Operating Data
 
-## Use Cases
+- **5**: prompt blocks
+- **3**: critique modes
+- **1**: final approval owner
 
-- **Prompt packs**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Human-in-the-loop review**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Campaign draft evaluation**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
+## Prompt bench sequence
 
-## Guides
+1. Brief packet
+2. Draft prompt
+3. Critique pass
+4. Revision note
+5. Approval summary
 
-- [How to Build an Agent-Ready Claude Email Strategy](/articles/agent-ready-email-strategy/index.md)
-- [The Practical Claude Email Operations Playbook for AI Agents](/articles/email-operations-playbook/index.md)
-- [Claude Email Skill Audit Checklist: From Prompt to Production](/articles/email-skill-audit-checklist/index.md)
+## Scenarios
+
+### Prompt packs
+
+Prepare reusable prompts for lifecycle, campaign, newsletter, and transactional work.
+
+### Human-in-the-loop review
+
+Return what changed, why it changed, and what still needs judgment.
+
+### Campaign draft evaluation
+
+Score message fit, segment fit, claim proof, and CTA clarity.
+
+## Operating Proof
+
+- **Best for**: Teams using Claude-style writing and critique loops
+- **Primary artifact**: Prompt pack plus review rubric
+- **Stop condition**: Draft requests without source material or audience definition
+
+## Agent Resources
+
+- Markdown index: /index.md
+- Skill discovery JSON: /.well-known/skills/index.json
+- Raw SKILL.md: /skills/claudeemailskill/SKILL.md
+- Articles: /articles/
