@@ -1,5 +1,5 @@
 ---
-name: claude-email
+name: claudeemailskill
 description: Use when Codex or another AI agent needs to plan, review, implement, audit, or improve email work focused on Claude-oriented email prompts, reviews, and campaign drafting. Triggers include requests about Prompt packs, Human-in-the-loop review, Campaign draft evaluation, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
 ---
 

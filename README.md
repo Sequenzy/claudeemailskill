@@ -5,8 +5,8 @@ Static landing page and Codex skill for claudeemailskill.com.
 Install shortcut:
 
 ```bash
-npx skills add claude-email
-npx skills add polnikale/claudeemailskill --skill claude-email
+npx skills add claudeemailskill
+npx skills add polnikale/claudeemailskill --skill claudeemailskill
 ```
 
-Raw skill folder: `skills/claude-email`
+Raw skill folder: `skills/claudeemailskill`

@@ -1,5 +1,5 @@
 {
-  "name": "claude-email",
+  "name": "claudeemailskill",
   "version": "0.1.0",
   "private": false,
   "description": "Claude Email Skill: Claude-oriented email prompts, reviews, and campaign drafting.",
@@ -12,12 +12,12 @@
     "codex-skill",
     "email",
     "agents",
-    "claude-email"
+    "claudeemailskill"
   ],
   "skill": {
-    "name": "claude-email",
-    "path": "skills/claude-email",
-    "install": "npx skills add claude-email",
-    "githubInstall": "npx skills add polnikale/claudeemailskill --skill claude-email"
+    "name": "claudeemailskill",
+    "path": "skills/claudeemailskill",
+    "install": "npx skills add claudeemailskill",
+    "githubInstall": "npx skills add polnikale/claudeemailskill --skill claudeemailskill"
   }
 }
