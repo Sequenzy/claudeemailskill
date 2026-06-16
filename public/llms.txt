@@ -1,0 +1,22 @@
+# Claude Email Skill
+
+Claude Email Skill is a skill package for Claude-oriented email prompts, reviews, and campaign drafting.
+
+Install:
+
+```bash
+npx skills add claudeemailskill
+```
+
+## Primary agent resources
+
+- Markdown index: https://claudeemailskill.com/index.md
+- Skill page: https://claudeemailskill.com/skill/index.md
+- Raw SKILL.md: https://claudeemailskill.com/skills/claudeemailskill/SKILL.md
+- Skill discovery JSON: https://claudeemailskill.com/.well-known/skills/index.json
+
+## Articles
+
+- How to Build an Agent-Ready Claude Email Strategy: https://claudeemailskill.com/articles/agent-ready-email-strategy/index.md
+- The Practical Claude Email Operations Playbook for AI Agents: https://claudeemailskill.com/articles/email-operations-playbook/index.md
+- Claude Email Skill Audit Checklist: From Prompt to Production: https://claudeemailskill.com/articles/email-skill-audit-checklist/index.md

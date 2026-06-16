@@ -1,0 +1,13 @@
+{
+  "skills": [
+    {
+      "name": "claudeemailskill",
+      "title": "Claude Email Skill",
+      "description": "Claude Email Skill: Claude-oriented email prompts, reviews, and campaign drafting.",
+      "install": "npx skills add claudeemailskill",
+      "skill_url": "https://claudeemailskill.com/skills/claudeemailskill/SKILL.md",
+      "markdown_url": "https://claudeemailskill.com/skill/index.md",
+      "homepage_url": "https://claudeemailskill.com/"
+    }
+  ]
+}
