@@ -6,7 +6,6 @@ Install shortcut:
 
 ```bash
 npx skills add claudeemailskill
-npx skills add Sequenzy/claudeemailskill --skill claudeemailskill
 ```
 
 Raw skill folder: `skills/claudeemailskill`

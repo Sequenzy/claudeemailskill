@@ -17,7 +17,6 @@
   "skill": {
     "name": "claudeemailskill",
     "path": "skills/claudeemailskill",
-    "install": "npx skills add claudeemailskill",
-    "githubInstall": "npx skills add Sequenzy/claudeemailskill --skill claudeemailskill"
+    "install": "npx skills add claudeemailskill"
   }
 }
