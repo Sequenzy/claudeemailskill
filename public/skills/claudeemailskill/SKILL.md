@@ -1,28 +1,33 @@
 ---
 name: claudeemailskill
-description: Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on Claude-oriented email prompts, reviews, and campaign drafting. Triggers include requests about Prompt packs, Human-in-the-loop review, Campaign draft evaluation, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
+description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on Claude-oriented email prompts, campaign drafting, critique loops, and human review. Triggers include requests about prompt packs, campaign draft evaluation, review rubrics, rewrite loops, and Claude Code email handoffs."
 ---
 
 # Claude Email Skill
 
-Use this skill to turn email work into an agent-safe operating routine. Start by identifying whether the task is analysis, drafting, implementation planning, QA, or production execution. Keep production execution behind explicit human approval.
+Use Claude for structured reasoning and critique, but keep the message accountable to the brief, audience, and approval owner.
 
-## Workflow
+## When To Use
 
-1. Clarify the email surface: campaign, newsletter, automation, transactional message, template, deliverability issue, or reporting task.
-2. Ask for source material that changes the answer: audience, lifecycle stage, offer, sending platform, segment rules, screenshots or exports, recent metrics, brand voice, compliance constraints, and existing copy.
-3. Produce structured output with these headings when relevant: assumptions, missing inputs, recommendation, draft or implementation notes, QA checks, risk level, and approval needed.
-4. Do not send, import contacts, alter suppression rules, change DNS, or modify production automations without explicit confirmation.
-5. If the task is complex or high risk, read references/operating-checklist.md before finalizing.
+Use this skill for Claude-oriented email prompts, campaign drafting, critique loops, and human review. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
+
+## Operating Workflow
+
+1. Turn the request into a clear email brief with audience, promise, proof, CTA, tone, constraints, and forbidden claims.
+2. Choose the Claude task shape: ideation, first draft, critique, rewrite, variant generation, or final QA.
+3. Provide Claude with bounded source material and ask it to cite which input drove each major claim.
+4. Review outputs against a rubric instead of taste alone: relevance, specificity, risk, readability, and production readiness.
+5. For rewrites, preserve approved facts and change only the requested dimension such as tone, length, structure, or CTA emphasis.
+6. Mark anything that needs human approval, legal review, data validation, or ESP testing.
 
 ## Review Criteria
 
-- The recommendation matches Claude-oriented email prompts, reviews, and campaign drafting.
-- The audience and permission basis are clear.
-- The message promise, segment, timing, and call to action are consistent.
-- Deliverability, unsubscribe, complaint, and compliance risks are surfaced.
-- Any live-system action is separated from analysis or drafting.
+- The prompt gives Claude enough context without exposing unnecessary private data.
+- Drafts do not invent guarantees, customer proof, pricing, or compliance claims.
+- Critique feedback is actionable and tied to the brief.
+- Variants test a meaningful hypothesis rather than superficial wording.
+- Final copy includes subject, preview, body, CTA, and QA notes when relevant.
 
 ## Output Pattern
 
-Return concise, executable artifacts: briefs, checklists, diffs, campaign outlines, sequence maps, QA tables, or post-send retrospectives. Prefer concrete next actions over generic best practices.
+Return Claude prompts, campaign drafts, critique rubrics, rewrite instructions, variant sets, and approval-ready copy packets. Keep recommendations concrete. Separate analysis from live-system actions, and require explicit approval before sending email, importing contacts, changing DNS, altering suppression rules, or editing production automations.

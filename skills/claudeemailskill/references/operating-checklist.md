@@ -1,30 +1,27 @@
 # Claude Email Skill Operating Checklist
 
-Use this checklist when the request involves Claude-oriented email prompts, reviews, and campaign drafting or could affect a live email system.
+Use this checklist when the request involves Claude-oriented email prompts, campaign drafting, critique loops, and human review or could affect a live email system.
 
 ## Intake
 
-- Audience and segment definition
-- Lifecycle moment or campaign purpose
-- Sending platform and source of truth
-- Existing template, copy, or automation screenshot
-- Recent delivery, engagement, unsubscribe, and complaint ranges
-- Legal or compliance constraints
-- Required approval owner
+- Audience, offer, lifecycle moment, and message objective
+- Approved source claims, proof points, and forbidden language
+- Tone examples and any house style constraints
+- Required modules such as subject line, preview text, body, CTA, and footer notes
+- Reviewer names or roles for brand, legal, product, and deliverability
 
 ## QA
 
-- Confirm the subject line matches the body promise.
-- Confirm links, personalization fields, fallbacks, and unsubscribe paths.
-- Confirm exclusions and suppression logic.
-- Confirm mobile readability and plain-language CTA.
-- Confirm the sender identity and reply handling.
-- Confirm metric baseline before recommending changes.
+- Confirm every claim can be traced to supplied source material.
+- Confirm the CTA matches the audience's current readiness.
+- Confirm subject and preview text do not overpromise the body.
+- Confirm personalization is safe if a field is empty or wrong.
+- Confirm the final handoff says what still needs human review.
 
 ## Risk Gates
 
-Low risk: summaries, drafts, analysis, naming suggestions.
+Low risk: research, summaries, drafts, critiques, naming, and non-production recommendations.
 
-Medium risk: template edits, segment recommendations, automation diagrams, A/B test plans.
+Medium risk: template edits, segment recommendations, automation diagrams, experiments, imports prepared for review, and code changes that need deployment.
 
-High risk: sending, contact imports, DNS/authentication changes, suppression edits, production automation changes.
+High risk: live sends, contact imports, suppression edits, DNS/authentication changes, production automation changes, provider migrations, and destructive cleanup. Stop and request explicit approval before high-risk actions.
