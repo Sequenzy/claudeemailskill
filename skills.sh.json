@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Claude Workflows",
+      "description": "Claude-oriented prompt, critique, and rewrite loops for email production.",
+      "skills": [
+        "claudeemailskill"
+      ]
+    }
+  ]
+}
