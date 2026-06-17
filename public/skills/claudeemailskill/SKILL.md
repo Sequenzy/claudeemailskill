@@ -7,6 +7,14 @@ description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another 
 
 Use Claude for structured reasoning and critique, but keep the message accountable to the brief, audience, and approval owner.
 
+## Decision Lens
+
+- Primary lens: Claude-oriented email prompts, campaign drafting, critique loops, and human review.
+- Common request signals: prompt packs, campaign draft evaluation, review rubrics, rewrite loops, and Claude Code email handoffs.
+- Default posture: Use Claude for structured reasoning and critique, but keep the message accountable to the brief, audience, and approval owner.
+- Useful output family: Claude prompts, campaign drafts, critique rubrics, rewrite instructions, variant sets, and approval-ready copy packets.
+- Production boundary: separate recommendation from execution.
+
 ## When To Use
 
 Use this skill for Claude-oriented email prompts, campaign drafting, critique loops, and human review. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
